@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """
-A method to determine if all boxes can be opened.
-Method returns True if all boxes can be opened or else method returns False.
+A Method to determine if all boxes can be opened.
+Method returns True if all boxes can be opened or else
+method returns False.
 """
 
 
@@ -12,7 +13,7 @@ def canUnlockAll(boxes):
             ctr = (key in boxes[idx] and key != idx)
             if ctr:
                 break
-            if ctr is false:
-                return ctr
-            return True
-
+        if ctr is False:
+            return ctr
+    return True
+    
